@@ -3,6 +3,14 @@
 *.lo
 *.o
 *.obj
+*.ilc
+*.ild
+*.ils
+*.map
+*.pch
+*.local
+*.#00
+*.tds
 
 # Compiled Dynamic libraries
 *.so
@@ -19,3 +27,5 @@
 *.exe
 *.out
 *.app
+
+

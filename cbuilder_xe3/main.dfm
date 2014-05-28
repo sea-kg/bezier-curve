@@ -12,6 +12,7 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   DesignSize = (
     880
     616)
@@ -47,7 +48,6 @@ object Form2: TForm2
     Caption = 'Clear User'#39's Points'
     TabOrder = 1
     OnClick = btnClearClick
-    ExplicitTop = 415
   end
   object btnDrawUsersPoints: TButton
     Left = 8
@@ -58,7 +58,6 @@ object Form2: TForm2
     Caption = 'Draw Users Points'
     TabOrder = 2
     OnClick = btnDrawUsersPointsClick
-    ExplicitTop = 415
   end
   object btnClose: TButton
     Left = 797
